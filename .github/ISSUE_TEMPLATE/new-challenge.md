@@ -1,8 +1,8 @@
 ---
-name: new-scenario
-about: Create a new scenario
-title: lab/challenge-name-use-lowercase
-labels: New
+name: New Challenge Scenario
+about: Create a new Challenge
+title: challenge-name-use-lowercase
+labels: New,Challenge,Easy
 assignees: ""
 ---
 

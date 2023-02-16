@@ -11,7 +11,7 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
@@ -24,6 +24,6 @@ jobs:
         run: |
           pip install requests
           pip install jsonschema
-          wget https://cdn.jsdelivr.net/gh/labex-labs/common-scripts/schema.json
-          wget https://cdn.jsdelivr.net/gh/labex-labs/common-scripts/actions/sync-labs-to-feishu.py
+          wget https://cdn.jsdelivr.net/gh/labex-labs/common-scripts@latest/schema.json
+          wget https://cdn.jsdelivr.net/gh/labex-labs/common-scripts@latest/actions/sync-labs-to-feishu.py
           python sync-labs-to-feishu.py --appid "$APP_ID" --appsecret "$APP_SECRET" --repo $GITHUB_REPOSITORY --schema schema.json

@@ -11,7 +11,7 @@
         "text": "step1.md",
         "verify": [
           {
-            "name": "Testing string manipulation.py",
+            "name": "Testing string_manipulation.py",
             "file": "verify1.sh",
             "hint": "Please replace this text with the hint of the verify script",
             "timeout": 0,
@@ -32,7 +32,7 @@
         "text": "step2.md",
         "verify": [
           {
-            "name": "Testing list operations.py",
+            "name": "Testing list_operations.py",
             "file": "verify2.sh",
             "hint": "Please replace this text with the hint of the verify script",
             "timeout": 0,
@@ -51,7 +51,7 @@
         "text": "step3.md",
         "verify": [
           {
-            "name": "Testing  dictionary operations.py",
+            "name": "Testing  dictionary_operations.py",
             "file": "verify3.sh",
             "hint": "Please replace this text with the hint of the verify script",
             "timeout": 0,
@@ -70,7 +70,7 @@
         "text": "step4.md",
         "verify": [
           {
-            "name": "Testing  tuple operations.py",
+            "name": "Testing  tuple_operations.py",
             "file": "verify4.sh",
             "hint": "Please replace this text with the hint of the verify script",
             "timeout": 0,
@@ -96,22 +96,22 @@
     "assets": {
       "host01": [
         {
-          "file": "string manipulation.py",
+          "file": "string_manipulation.py",
           "target": "/home/project",
           "chmod": "ugo+rwx"
         },
         {
-          "file": "list operations.py",
+          "file": "list_operations.py",
           "target": "/home/project",
           "chmod": "ugo+rwx"
         },
         {
-          "file": "dictionary operations.py",
+          "file": "dictionary_operations.py",
           "target": "/home/project",
           "chmod": "ugo+rwx"
         },
         {
-          "file": "tuple operations.py.py",
+          "file": "tuple_operations.py",
           "target": "/home/project",
           "chmod": "ugo+rwx"
         },

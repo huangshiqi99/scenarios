@@ -4,13 +4,18 @@ Here's a simple Python function that takes a dictionary to be manipulated as an 
 
 ```python
 def dictionary_operations(input_dict: dict) -> dict:
+    
     input_dict["new_key"] = "new_value"
     input_dict.pop("remove_key", None)
     return input_dict
-```
+ ```
 
+## TODO
+
+- Completing `dictionary_operations.py`
 
 ## Requirements
-1. Add a key-value pair {"new_key": "new_value"} to the dictionary.
-2. Remove the key "remove_key" and its corresponding value from the dictionary.
-3. Return the final dictionary.
+
+- Use only the following arithmetic operators in your solution: +, -, \*, /, //, %, \*\*
+- The program should take one argument, an integer n (1 <= n <= 10^4), and print the output to the console.
+- No modules can be imported.

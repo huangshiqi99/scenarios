@@ -1,14 +1,12 @@
 # List Operations
 
-Here's a simple Python function that takes a list of integers to be manipulated as an input and returns a  manipulated list.
+Given two list ,write a new list comprehension that creates a new list containing only the operators in two old list.
+the syntax of a list comprehension is:
 
 ```python
-def list_operations(input_list: list) -> list:
-    
-    input_list = list(set(input_list))
-    input_list.sort()
-    return input_list
- ```
+new_list=[expression for item in old_list ]
+-in this step,expression is a function that converts each old list to ascend and de-merge .
+```
 
 ## TODO
 
@@ -16,6 +14,5 @@ def list_operations(input_list: list) -> list:
 
 ## Requirements
 
-- Use only the following arithmetic operators in your solution: +, -, \*, /, //, %, \*\*
-- The program should take one argument, an integer n (1 <= n <= 10^4), and print the output to the console.
+- Use only the list operators to solve the problem.
 - No modules can be imported.

@@ -1,14 +1,12 @@
 # Tuple Operations
 
-Here's a simple Python function that takes a tuple to be manipulated as an input and returns a  manipulated tuple.
+Given a tuple,write a new tuple comprehension that creates a new tuple containing only the operations on the tuple.
+the syntax of a tuple comprehension is:
 
 ```python
-def tuple_operations(input_tuple: tuple) -> tuple:
-    
-    input_list = list(input_tuple)
-    input_list.sort()
-    return tuple(input_list)
- ```
+new_tuple=[expression for item in old_tuple]
+-in this step,expression is a function that converts the old tuple to list and ascend,convert the sorted list back to a new tuple.
+```
 
 ## TODO
 
@@ -16,6 +14,12 @@ def tuple_operations(input_tuple: tuple) -> tuple:
 
 ## Requirements
 
-- Use only the following arithmetic operators in your solution: +, -, \*, /, //, %, \*\*
-- The program should take one argument, an integer n (1 <= n <= 10^4), and print the output to the console.
+- Use only the tuple operations to solve the problem.
 - No modules can be imported.
+
+
+
+
+
+
+

@@ -1,13 +1,12 @@
 # String Manipulation
 
-Here's a simple Python function that takes a string to be manipulated as an input and returns a  manipulated string.
+Given a string ,write a new string comprehension that creates a new string containing only the operators in a string.
+the syntax of a string comprehension is:
 
- ```python
-
- def string_manipulation(input_string: str) -> str:
-    input_string = input_string.lower().replace(" ", "")
-    return input_string[::-1]
- ```
+```python
+new_string=[expression in old_string ]
+-in this step,expression is a function that converts a  old string, upper case, to lowercase and in reverse order .
+```
 
 ## TODO
 
@@ -15,9 +14,7 @@ Here's a simple Python function that takes a string to be manipulated as an inpu
 
 ## Requirements
 
-- Use only the following arithmetic operators in your solution: +, -, \*, /, //, %, \*\*
-- The program should take one argument, an integer n (1 <= n <= 10^4), and print the output to the console.
+- Use only the string operators to solve the problem.
 - No modules can be imported.
-
 
 

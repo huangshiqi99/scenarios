@@ -23,9 +23,7 @@
           "python/dictionary",
           "python/list",
           "python/tuple"
-        
-      
-      ]
+        ]
       },
       {
         "title": "List Operations",
@@ -36,7 +34,7 @@
             "file": "verify2.sh",
             "hint": "Please replace this text with the hint of the verify script",
             "timeout": 0,
-            "showstderr":  true
+            "showstderr": true
           }
         ],
         "skills": [
@@ -84,7 +82,6 @@
           "python/tuple"
         ]
       }
-     
     ],
     "intro": {
       "text": "intro.md",
@@ -123,6 +120,6 @@
     }
   },
   "backend": {
-    "imageid": "vnc-ubuntu:2004"
+    "imageid": "webide-ubuntu:2004"
   }
 }

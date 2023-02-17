@@ -7,6 +7,7 @@ the syntax of a string comprehension is:
 new_stringt=[expression for item in old_string ]
 -in this step,expression is a function that converts each old string, upper case, to lowercase and in reverse order and replaces the first old string with the second   old string.
 ```
+
 ## TODO
 
 - Completing `string_manipulation.py`

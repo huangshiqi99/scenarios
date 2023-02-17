@@ -1,1 +1,1 @@
-cd /tmp && python3  tuple_operations_test.py
+cd /tmp && python3 tuple_operations_test.py

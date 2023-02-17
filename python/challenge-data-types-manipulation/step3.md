@@ -1,10 +1,10 @@
 # Dictionary Operations
 
-Given a dictionary input_dict ,write a new dictionary comprehension that creates a new dictionary containing only the operations on the dictionary.
+Given a dictionary,write a new dictionary comprehension that creates a new dictionary containing only the operations on the dictionary.
 the syntax of a dictionary comprehension is:
 
 ```python
-new_dictionary=[expression for item in input_dict]
+new_dictionary=[expression for item in old_dictionary]
 -in this step,expression is a function that converts a key-value pair to add and remove.
 ```
 

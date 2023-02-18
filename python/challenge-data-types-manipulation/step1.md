@@ -1,4 +1,4 @@
- # String Manipulation
+  # String Manipulation
 
 Given a string, write a function string_manipulation that takes a string as input and return a manipulated string that performs some operations.
 
@@ -8,7 +8,7 @@ Given a string, write a function string_manipulation that takes a string as inpu
 
 ## Requirements
 
-1.Convert the string to lowercase.
-2.Remove all whitespaces from the string.
-3.Reverse the string.
-4.Return the final string.
+- Convert the string to lowercase.
+- Remove all whitespaces from the string.
+- Reverse the string.
+- Return the final string.

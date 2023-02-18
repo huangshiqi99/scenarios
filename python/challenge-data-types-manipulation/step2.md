@@ -1,12 +1,6 @@
-# List Operations
+ # List Operations
 
-Given a list of integers,write a new list comprehension that creates a new list containing only the operations on the old list.
-the syntax of a list comprehension is:
-
-```python
-new_list=[expression for item in old_list]
--in this step,expression is a function that converts each old list to ascend and de-merge the old list.
-```
+Given a list of integers input_list, write a function list_operations(input_list) that takes a list of integers as input and return a manipulated list that performs the following operations.
 
 ## TODO
 
@@ -14,5 +8,6 @@ new_list=[expression for item in old_list]
 
 ## Requirements
 
-- Use only the list operations to solve the problem.
-- No modules can be imported.
+1.Sort the list in ascending order.
+2.Remove duplicates from the list.
+3.Return the final list.

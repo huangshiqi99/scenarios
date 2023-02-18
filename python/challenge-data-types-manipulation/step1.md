@@ -1,6 +1,6 @@
   # String Manipulation
 
-Given a string, write a function string_manipulation that takes a string as input and return a manipulated string that performs some operations.
+Given a string, write a function string_manipulation that takes a string as input and returns a manipulated string that contains the conversions and reversions from the string.
 
 ## TODO
 

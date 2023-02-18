@@ -1,12 +1,6 @@
-# Tuple Operations
+ # Tuple Operations
 
-Given a tuple,write a new tuple comprehension that creates a new tuple containing only the operations on the tuple.
-the syntax of a tuple comprehension is:
-
-```python
-new_tuple=[expression for item in old_tuple]
--in this step,expression is a function that converts the old tuple to list and ascend,convert the sorted list back to a new tuple.
-```
+Given a tuple,write a function tuple_operations that takes a tuple as input and returns a manipulated tuple that containing the mutual conversion of tuples and lists
 
 ## TODO
 
@@ -14,9 +8,12 @@ new_tuple=[expression for item in old_tuple]
 
 ## Requirements
 
-- Use only the tuple operations to solve the problem.
-- No modules can be imported.
+- Convert the tuple to a list.
+- Sort the list in ascending order.
+- Convert the sorted list back to a tuple.
+- Return the final tuple.
 
+    
 
 
 
